@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/12/2021, 9:03:27
+    Author     : ErickaBravo
+*/
+body{
+    background: url(../FotosPW/imb1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.main-section{
+    margin: 0 auto;
+    margin-top: 18%;
+    padding: 0;
+}
+.modal-content{
+    background: #3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+.user-img{
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.user-img h5{
+    color: whitesmoke; 
+    width: 10xp;
+    height: 10px;
+}
+.text-center h5{
+    color: whitesmoke;
+    width: 10xp;
+    height: 10px;
+}
+.form-check label{
+    color: whitesmoke;    
+}
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top: 4px;
+}
+.form-group#user-group::before{
+    content: "\f007";
+}
+.form-group#contrasena-group::before{
+    content: "\f023"
+}
+button{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+.forgot{
+    padding: 5px 0;
+}
+.forgot a{
+    color: white;
+}
+label{
+    color: whitesmoke;
+}
+.form-group#nombre::before{
+    content: "\f007";
+}
+.form-group#apellidos::before{
+    content: "\f007";
+}
+.form-group#correo::before{
+    content: "\f007";
+}
+.form-group#Telefono::before{
+    content: "\f095";
+}
+.form-group#password::before{
+    content: "\f023"
+}
+.form-group#re_password::before{
+    content: "\f023"
+}
+.mensajeError{
+    color: white;
+    margin-top:0px;
+    font-size:12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
